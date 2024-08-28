@@ -1,0 +1,87 @@
+.container {
+  width: 370px;
+  height: 326px;
+  margin-top: 85px;
+  margin-left: 104px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 6px;
+  padding: 10px 0 10px 0;
+  box-shadow: 0px 8px 15px 0px #1414141F;
+}
+
+.all-pages {
+  height: 42px;
+  padding: 8px 15px 8px 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+}
+
+.content {
+  width: 370px;
+  height: 164px;
+}
+
+.text {
+  width: 64px;
+  height: 18px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+  color: #1F2128;
+}
+
+.box {
+  width: 23px;
+  height: 23px;
+  border-radius: 6px;
+  border: 1px solid #cdcdcd;
+  opacity: 60%;
+  background-color: #ffffff;
+}
+
+.box:hover {
+  background-color: #5087F8;
+}
+
+/* change to v7 & v4*/
+.box:onClick {
+  background: #2469F6;
+  border: 3px solid #2469F6
+}
+
+/* change to v3 */
+.box:onMouseDown {
+  background: #FFFFFF;
+}
+
+.line {
+  width: 340px;
+  /* margin-bottom: 5px; */
+}
+
+.single-page {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: left;
+  color: #1F2128;
+  height: 42px;
+  padding-right: 15px;
+  padding-left: 22px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+/* // While pressing */
+/* // Change to: "Variant3"; */
+/* // Animate: Instant; */
+/* animation-duration: 0ms; */
+

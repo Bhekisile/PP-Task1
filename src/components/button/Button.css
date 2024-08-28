@@ -4,22 +4,22 @@
   margin: 10px 15px 10px 15px;
   gap: 10px;
   border-radius: 4px;
-  background: #FFCE22;
+  background: #ffce22;
   border: none;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 18.2px;
-  color: #1F2128;
+  color: #1f2128;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .btn:hover {
-  background: #FFD84D;
+  background: #ffd84d;
 }
 
 .btn:active {
-  background: #FFCE22;
+  background: #ffce22;
 }

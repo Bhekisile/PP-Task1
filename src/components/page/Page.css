@@ -3,11 +3,11 @@
   height: 326px;
   margin-top: 85px;
   margin-left: 104px;
-  background: #ffffff;
-  border: 1px solid #eeeeee;
+  background: #fff;
+  border: 1px solid #eee;
   border-radius: 6px;
   padding: 10px 0 10px 0;
-  box-shadow: 0px 8px 15px 0px #1414141F;
+  box-shadow: 0 8px 15px 0 #1414141f;
 }
 
 .all-pages {
@@ -16,7 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #ffffff;
+  background: #fff;
 }
 
 .content {
@@ -27,12 +27,12 @@
 .text {
   width: 64px;
   height: 18px;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 18.2px;
   text-align: left;
-  color: #1F2128;
+  color: #1f2128;
 }
 
 .box {
@@ -41,7 +41,7 @@
   border-radius: 6px;
   border: 1px solid #cdcdcd;
   opacity: 60%;
-  background-color: #ffffff;
+  background-color: #fff;
   cursor: pointer;
 }
 
@@ -51,12 +51,12 @@ label {
 }
 
 label:hover {
-  background-color: #5087F8;
+  background-color: #5087f8;
 }
 
 .box:active {
-  background: #2469F6;
-  border: 3px solid #2469F6
+  background: #2469f6;
+  border: 3px solid #2469f6;
 }
 
 .line {
@@ -67,16 +67,16 @@ label:hover {
 }
 
 hr {
-  border: 0.7px solid #CDCDCD;
+  border: 0.7px solid #cdcdcd;
 }
 
 .single-page {
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 18.2px;
   text-align: left;
-  color: #1F2128;
+  color: #1f2128;
   height: 42px;
   padding-right: 15px;
   padding-left: 22px;

@@ -1,0 +1,25 @@
+.btn {
+  width: 340px;
+  height: 40px;
+  margin: 10px 15px 10px 15px;
+  gap: 10px;
+  border-radius: 4px;
+  background: #ffce22;
+  border: none;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  color: #1f2128;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  background: #ffd84d;
+}
+
+.btn:active {
+  background: #ffce22;
+}

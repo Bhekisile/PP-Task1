@@ -61,7 +61,13 @@
 
 .line {
   width: 340px;
-  /* margin-bottom: 5px; */
+  border: none;
+  padding: 10px 15px;
+  margin-left: 15px;
+}
+
+hr {
+  border: 0.7px solid #CDCDCD;
 }
 
 .single-page {

@@ -36,7 +36,9 @@ const Page = () => {
           onChange={handleChange}
         />
       </div>
-      <hr className="line" />
+      <div className="line">
+        <hr />
+      </div>
       <div className="content">
         {['Page 1', 'Page 2', 'Page 3', 'Page 4'].map((page) => (
           <div className="single-page" key={page}>
@@ -52,7 +54,9 @@ const Page = () => {
           </div>
         ))}
       </div>
-      <hr className="line" />
+      <div className="line">
+        <hr />
+      </div>
       <Button />
     </div>
   );

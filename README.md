@@ -46,7 +46,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://pp-task1-bhekisiles-projects.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

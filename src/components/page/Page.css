@@ -42,21 +42,21 @@
   border: 1px solid #cdcdcd;
   opacity: 60%;
   background-color: #ffffff;
+  cursor: pointer;
 }
 
-.box:hover {
+label {
+  width: 23px;
+  height: 23px;
+}
+
+label:hover {
   background-color: #5087F8;
 }
 
-/* change to v7 & v4*/
-.box:onClick {
+.box:active {
   background: #2469F6;
   border: 3px solid #2469F6
-}
-
-/* change to v3 */
-.box:onMouseDown {
-  background: #FFFFFF;
 }
 
 .line {
@@ -85,9 +85,3 @@ hr {
   padding-top: 4px;
   padding-bottom: 4px;
 }
-
-/* // While pressing */
-/* // Change to: "Variant3"; */
-/* // Animate: Instant; */
-/* animation-duration: 0ms; */
-

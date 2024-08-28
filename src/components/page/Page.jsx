@@ -23,18 +23,22 @@ const Page = () => {
 
   const isAllPagesChecked = allChecked.length === 4;
 
+  /* eslint-disable jsx-a11y/label-has-associated-control */
+
   return (
     <div className="container">
       <div className="all-pages">
         <span className="text">All pages</span>
-        <input
-          type="checkbox"
-          value="All pages"
-          name="all"
-          className="box"
-          checked={isAllPagesChecked}
-          onChange={handleChange}
-        />
+        <label>
+          <input
+            type="checkbox"
+            name="all"
+            className="box"
+            value="All pages"
+            checked={isAllPagesChecked}
+            onChange={handleChange}
+          />
+        </label>
       </div>
       <div className="line">
         <hr />
@@ -43,14 +47,16 @@ const Page = () => {
         {['Page 1', 'Page 2', 'Page 3', 'Page 4'].map((page) => (
           <div className="single-page" key={page}>
             <span>{page}</span>
-            <input
-              type="checkbox"
-              value={page}
-              name={page.toLowerCase().replace(' ', '-')}
-              className="box"
-              checked={allChecked.includes(page)}
-              onChange={handleChange}
-            />
+            <label>
+              <input
+                type="checkbox"
+                value={page}
+                name={page.toLowerCase().replace(' ', '-')}
+                className="box"
+                checked={allChecked.includes(page)}
+                onChange={handleChange}
+              />
+            </label>
           </div>
         ))}
       </div>

@@ -20,6 +20,6 @@
   background: #FFD84D;
 }
 
-.btn:onClick {
+.btn:active {
   background: #FFCE22;
 }
